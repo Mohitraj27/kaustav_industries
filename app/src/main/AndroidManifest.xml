@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RegistrationFormApp">
         <activity
+            android:name=".Waste"
+            android:exported="false" />
+        <activity
             android:name=".SummaryActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

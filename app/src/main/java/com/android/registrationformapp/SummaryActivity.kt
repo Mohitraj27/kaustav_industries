@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+
 import kotlinx.android.synthetic.main.activity_summary.*
 
 class SummaryActivity : AppCompatActivity() {
@@ -29,6 +30,7 @@ class SummaryActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 
     private fun displayUser() {
         text_view_user_full_name.text = user.getFullName()

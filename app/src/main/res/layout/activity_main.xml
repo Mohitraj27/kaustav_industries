@@ -112,8 +112,15 @@
             android:id="@+id/button_create_account"
             android:background="#50c878"
             android:layout_marginTop="115dp"
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Sign In"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginStart="170dp"
+            android:background="#50c878"
+            android:layout_marginTop="-50dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"/>
     </LinearLayout>
 </ScrollView>
