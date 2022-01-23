@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:text="Sign In"/>
         <com.google.android.material.button.MaterialButton
-            android:layout_marginStart="170dp"
+            android:layout_marginStart="190dp"
             android:background="#50c878"
             android:layout_marginTop="-50dp"
             android:layout_width="150dp"
