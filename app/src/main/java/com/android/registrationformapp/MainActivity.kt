@@ -13,9 +13,14 @@ class MainActivity : AppCompatActivity() {
 
         setupSpinner()
         setupButton()
-
+        Login()
     }
-
+ private fun Login(){
+     Log_in_page.setOnClickListener{
+         val intent=Intent(this@MainActivity,MainActivity2::class.java)
+         startActivity(intent)
+     }
+ }
     private fun setupButton() {
         button_create_account.setOnClickListener{
             createAccount()

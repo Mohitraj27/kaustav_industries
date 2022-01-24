@@ -38,9 +38,9 @@
     <androidx.appcompat.widget.AppCompatButton
 
         android:layout_marginTop="15dp"
-        android:textSize="11sp"
+        android:textSize="12sp"
         android:id="@+id/text_view_email_address"
-        tools:text="email@address.com"
+        tools:text="My Feedback"
 
         android:background="#50c878"
         android:layout_width="160dp"
@@ -64,6 +64,7 @@
       android:background="#50c878"
     android:layout_marginTop="10dp"
     android:text="Collect My Waste"
+    android:id="@+id/collect_My_waste"
     android:textSize="12sp" />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="160dp"
