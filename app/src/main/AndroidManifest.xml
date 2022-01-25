@@ -6,24 +6,32 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Waste Management Service"
-
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RegistrationFormApp">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-
-        <activity
-            android:name=".Waste"
-            android:parentActivityName=".SummaryActivity"
+            android:name=".Collect_My_Waste"
             android:exported="true"
-
-            android:label="Collect My Waste"/>
+            android:label="Collect My Waste"
+            android:parentActivityName=".SummaryActivity"/>
+        <activity
+            android:name=".Metallic_Waste"
+            android:exported="true"
+            android:parentActivityName=".Collect_My_Waste"
+            android:label="Your Waste Details"/>
+        <activity
+            android:name=".CoinsCollected"
+            android:exported="true"
+            android:label="Kaustav Industries"
+            android:parentActivityName=".SummaryActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="User LogIn" />
         <activity
             android:name=".SummaryActivity"
-            android:label="User Account"
-            android:exported="true" />
+            android:exported="true"
+            android:label="User Account" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

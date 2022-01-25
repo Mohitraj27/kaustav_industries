@@ -71,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="190dp"
             android:background="#50c878"
+            android:id="@+id/CoinsCollectedbutton"
             android:layout_marginTop="-45dp"
             android:text="Coins Collected"/>
     </LinearLayout>

@@ -2,11 +2,9 @@ package com.android.registrationformapp
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-
+import androidx.appcompat.app.AppCompatActivity
+import com.android.registrationformapp.ui.Waste
 import kotlinx.android.synthetic.main.activity_summary.*
 
 class SummaryActivity : AppCompatActivity() {
@@ -19,12 +17,18 @@ class SummaryActivity : AppCompatActivity() {
         retrieveUser()
         displayUser()
         setupClickListener()
-
+        Coins_collected()
     }
+    private fun Coins_collected()
+    {
+        CoinsCollectedbutton.setOnClickListener{
+            val intent=Intent(this@SummaryActivity,CoinsCollected::class.java)
+            startActivity(intent)
+    }}
 private fun CollectMyWaste()
 {
     collect_My_waste.setOnClickListener{
-        val intent =Intent(this@SummaryActivity,Waste::class.java)
+        val intent =Intent(this@SummaryActivity,Collect_My_Waste::class.java)
             startActivity(intent)
     }
 }
