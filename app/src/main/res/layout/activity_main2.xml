@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login_image"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+
+
+            android:src="@drawable/whatsapp_image_2022_01_17_at_1_57_27_pm" />
+
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="20dp"
+        android:background="#50c878">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    app:passwordToggleEnabled="true"
+    android:background="#50c878">
+<com.google.android.material.textfield.TextInputEditText
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:hint="Password"
+
+    android:inputType="number"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/log_in_button"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="50dp"
+            android:hint="Log In" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_create_account"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:text="Create Account"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</ScrollView>
