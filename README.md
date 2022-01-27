@@ -6,7 +6,7 @@ Android Internship Project in Waste Management Service Company.
 - User LogIn Page is also there but No Database is used.
 - After successful Sign In app interface moves to new User Account Page where user is given an  for Collecting the Waste of his area and also for User Coins Collected option is there which depends on the amount of waste user collects.
 - Authetication for Feedback using Gmail Id where user can send feedback to the company and Contact Info Authetication is used for phone calls.
-- Now the user is given an option to collect the type of waste  wants to by entering the details of the waste like area from where it should be collected,Amount of Waste,Type of Waste and Date when it should be picked up from the user.
+- Now the user is given an option to collect the type of waste  wants to by entering the details of the waste like area from where it would be collected,Amount of Waste,Type of Waste and Date when it should be picked up from the user.
 
 
 ## Snapshots
