@@ -50,13 +50,19 @@
                 android:hint="Your Address"/>
 
         </com.google.android.material.textfield.TextInputLayout>
+<<<<<<< HEAD
 
         <com.google.android.material.textfield.TextInputLayout
            android:layout_width="match_parent"
+=======
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+>>>>>>> github.com/Mohitraj27/master
             android:layout_height="match_parent"
             android:layout_marginTop="12dp"
             android:background="#50c878"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+<<<<<<< HEAD
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -67,6 +73,15 @@
                 android:hint="Amount of Waste  "
                 android:inputType="number"
                 android:textColor="#000" />
+=======
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_email"
+                android:textColor="#000"
+                android:inputType="number"
+                android:hint="Amount of Waste in Kg "/>
+>>>>>>> github.com/Mohitraj27/master
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
@@ -98,11 +113,21 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/edit_text_password"
                 android:textColor="#000"
+<<<<<<< HEAD
                 android:hint="Pick Up Date"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_submit_waste_details"
+=======
+                android:inputType="number"
+                android:hint="Date"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_create_account"
+>>>>>>> github.com/Mohitraj27/master
             android:background="#50c878"
             android:layout_marginTop="115dp"
             android:layout_width="150dp"
@@ -118,4 +143,8 @@
             android:textSize="12sp"
             android:text="Collect More Waste"/>
     </LinearLayout>
+<<<<<<< HEAD
 </ScrollView>
+=======
+</ScrollView>
+>>>>>>> github.com/Mohitraj27/master
