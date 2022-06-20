@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_metallic_waste.*
 
@@ -15,13 +14,18 @@ class Metallic_Waste : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_metallic_waste)
         GotouserProfile()
-        Submit_waste()
+        Submit_waste();
 
 
     }
 
-    private fun Submit_waste()
+    private fun Submit_waste() {
+        TODO("Not yet implemented")
+    }
+
+    private fun Submit_waste(button_submit_waste_details: Any)
     {
+
         button_submit_waste_details.setOnClickListener{
             Toast.makeText(this,"Your Waste Details has been submitted",Toast.LENGTH_SHORT).show();
         }
@@ -35,4 +39,8 @@ private fun GotouserProfile()
         startActivity(intent)
     }
 }
+}
+
+private fun Any.setOnClickListener(function: () -> Unit) {
+
 }
